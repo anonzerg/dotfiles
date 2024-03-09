@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # default text editor.
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR='$VISUAL'
 
 # config git.
@@ -130,3 +130,5 @@ export PS1='\[\033[01;92m\]\w\[\033[93m\]$(__git_ps1 " git:(%s)")\[\033[00m\] \$
 # enable vi-mode in bash.
 set -o vi
 
+# rust toolchain.
+. "$HOME/.cargo/env"
