@@ -1,0 +1,8 @@
+alias update='sudo apt update && sudo apt full-upgrade -y'
+alias clean='sudo apt autoremove && sudo apt autoclean'
+alias ..='cd ..;pwd'
+alias rm='rm -i'
+alias cat='cat -n'
+alias mkdir='mkdir -v'
+alias rmdir='rmdir -v'
+alias c='clear'
