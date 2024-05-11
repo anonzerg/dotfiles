@@ -104,7 +104,7 @@ window:
   # Resize increments
   #
   # Prefer resizing window by discrete steps equal to cell dimensions.
-  #resize_increments: false
+  resize_increments: true
 
   # Make `Option` key behave as `Alt` (macOS only):
   #   - OnlyLeft
@@ -437,7 +437,7 @@ cursor:
 
   # Thickness of the cursor relative to the cell width as floating point number
   # from `0.0` to `1.0`.
-  thickness: 1.0
+  #thickness: 1.0
 
 # Live config reload (changes require restart)
 live_config_reload: true
