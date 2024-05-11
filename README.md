@@ -1,1 +1,1 @@
-Simple minimalist config for zsh and bash shell, vim text editor and allacritty terminal emulator.
+Simple minimalist config for zsh and bash, vim text editor and alacritty terminal emulator.
