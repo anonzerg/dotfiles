@@ -1,4 +1,4 @@
-alias update='sudo apt update && sudo apt full-upgrade -y'
+alias update='sudo apt update && sudo apt upgrade -y'
 alias clean='sudo apt autoremove && sudo apt autoclean'
 alias ..='cd ..;pwd'
 alias rm='rm -i'
