@@ -3,3 +3,5 @@
 	email = anonzerg@proton.me
 [init]
 	defaultBranch = main
+[core]
+	editor = vim
