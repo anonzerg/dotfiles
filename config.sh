@@ -1,12 +1,7 @@
 #! /usr/bin/env bash
 
-<<<<<<< HEAD
 if [[ -d $HOME/.dotfiles/alacritty ]]; then
   ln -s $HOME/.dotfiles/alacritty $HOME/.config/
-=======
-if [[ -f $HOME/.dotfiles/.alacritty.yml ]]; then
-  ln -s $HOME/.dotfiles/.alacritty.yml
->>>>>>> 0854e93a38d99acb61ea8cbc35318188f23f410b
 else
   echo "no config file for alacritty."
 fi
@@ -71,8 +66,4 @@ if [[ -f $HOME/.dotfiles/.gitconfig && \
   ln -s $HOME/.dotfiles/.git-prompt.sh
 else
   echo "no config files for git."
-<<<<<<< HEAD
 fi
-=======
-fi
->>>>>>> 0854e93a38d99acb61ea8cbc35318188f23f410b

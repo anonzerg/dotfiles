@@ -1,10 +1,6 @@
 #! /usr/bin/env bash
 
-<<<<<<< HEAD
 apt-get update && apt-get upgrade -y
-=======
-apt-get update && apt-get upgrade
->>>>>>> 0854e93a38d99acb61ea8cbc35318188f23f410b
 
 if [[ $? -eq 0 ]]; then
   echo "update and upgrade succeeded"
@@ -27,20 +23,21 @@ apt-get install \
   manpages-posix-dev \
   moreutils \
   gdb \
-<<<<<<< HEAD
   gfortran \
   tmux -y
-=======
-  gfortran
->>>>>>> 0854e93a38d99acb61ea8cbc35318188f23f410b
 
 if [[ $? -eq 0 ]]; then
   echo "required packages installed"
 else
   echo "packages installation process exit with $?."
   echo "packages installation failed."
-<<<<<<< HEAD
 fi
-=======
+
+echo "installing jetbrains font"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
+
+if [[ $? -eq 0 ]]; then
+  echo "jetbrains font installed successfully."
+else
+  echo "failed to install jetbrain font"
 fi
->>>>>>> 0854e93a38d99acb61ea8cbc35318188f23f410b
