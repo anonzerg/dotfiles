@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # default text editor.
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR='$VISUAL'
 
 # config git.
