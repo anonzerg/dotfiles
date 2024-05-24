@@ -1,1 +1,3 @@
-Simple minimalist config for zsh and bash, vim text editor and alacritty terminal emulator.
+# dotfiles
+
+basic config file for vim and neovim, modified alacritty terminal config and simple zsh and bash config.
