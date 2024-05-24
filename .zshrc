@@ -9,8 +9,8 @@ if [ -f /etc/zsh/zshrc ]; then
 fi
 
 # default text editor
-export VISUAL=vim
-export EDITOR=vim
+export VISUAL=nvim
+export EDITOR=nvim
 
 # prompt
 fpath=(~/.zsh $fpath)
